@@ -114,7 +114,8 @@ npx stencil build --dev --watch --serve --config stencil.config.works.ts
    ```
 
    (where hostRefGlobal would be a global variable set temporary right before
-   the component is created)
+   the component is created - or better yet, could temporarily set the variable on
+   the constructor's instance)
 
 Not directly related, but if Stencil Compiler could keep the order of
 properties/props/states in the final output the same as it is in the original
